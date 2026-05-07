@@ -1,15 +1,29 @@
+# Frontend build artifacts
 node_modules/
 .next/
 dist/
+
+# Backend
+backend/__pycache__/
+backend/**/*.pyc
+backend/.pytest_cache/
+
+# Logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.DS_Store
+
+# Environment
 .env.local
 .env.*.local
-.cache/
-*.tar
-*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Media files (large)
 *.mp4
 *.part
+*.tar
+*.zip
